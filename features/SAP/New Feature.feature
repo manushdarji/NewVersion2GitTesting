@@ -69,6 +69,7 @@ Feature: New Feature
     | username_sap     | password_sap     |
     | {{Username SAP}} | {{Password SAP}} |
 
+  @regre
   Scenario Outline: New Test 4
     Given The user sends a POST API request and verifies the response details [01KQRY1Q14XN3ENRBF88RZJ6T9]
     And The user enters the login information and continues [01KQS2E1G4V0KBTS6TRPC5X3TD]
@@ -119,6 +120,7 @@ Feature: New Feature
     | username_sap     | password_sap     | search_query |
     | {{Username SAP}} | {{Password SAP}} | Manush dSrji |
 
+  @regre
   Scenario Outline: New Test 6
     Given The user enters the login information and continues [01KQS3B2W6CMJAHNR4JB2BYAMT]
       """
@@ -139,6 +141,7 @@ Feature: New Feature
     | username_sap     | password_sap     |
     | {{Username SAP}} | {{Password SAP}} |
 
+  @regre
   Scenario Outline: New Test 7
     Given The user enters the login information and continues [01KQS3SNCN9N95YT6TQHK14XWY]
       """
