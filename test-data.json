@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "projectId": "01KNKQ8KAWF60779MD04623H3Q",
+  "entries": [
+    {
+      "_id": "01KPATM03JY5W4MRQ4WPEX9W7Q",
+      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
+      "key": "Password_Mesha",
+      "value": "C5gybAGHVHJBkJHj2jnmjaGjMTHISIhZ9klEgYNxQz707HL6ig==",
+      "dataType": "secret",
+      "scope": {
+        "type": "global"
+      },
+      "source": "user",
+      "createdAt": "2026-04-16T09:40:39.666Z",
+      "updatedAt": "2026-04-16T09:40:39.666Z"
+    },
+    {
+      "_id": "01KP86V430N2YEX71P3H7H3CS7",
+      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
+      "key": "Password",
+      "value": "GJxlv08jcW0BSn3Yz+5yqDE0E+Cm3TXGhriQdLFSU3GSxq6g7qY=",
+      "dataType": "secret",
+      "scope": {
+        "type": "global"
+      },
+      "source": "user",
+      "createdAt": "2026-04-15T09:16:32.736Z",
+      "updatedAt": "2026-04-15T09:16:32.736Z"
+    },
+    {
+      "_id": "01KP86YVRJCTZ1EZDBWJVR8A8W",
+      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
+      "key": "totp",
+      "value": "KZHkwiu0oi/wzVnHxHDQhqxQJilUqj5LkPWYP1VzGf0wVziB+GFYSE6hiLCLBS7bd2/RZM8BJIxeD3kn",
+      "dataType": "totp",
+      "scope": {
+        "type": "global"
+      },
+      "source": "user",
+      "createdAt": "2026-04-15T09:18:35.282Z",
+      "updatedAt": "2026-04-15T09:18:35.282Z"
+    },
+    {
+      "_id": "01KQRQ79GC6YWHXP1SH68JFJRP",
+      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
+      "key": "Password SAP",
+      "value": "RVJIxz7lICe3bHHWFFMwSza7776IMpRrJvogH34du8Irtnri",
+      "dataType": "secret",
+      "scope": {
+        "type": "global"
+      },
+      "source": "user",
+      "createdAt": "2026-05-04T05:26:21.452Z",
+      "updatedAt": "2026-05-04T05:26:21.452Z"
+    },
+    {
+      "_id": "01KP86SJN7ANGS6N0WGKZY8YT1",
+      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
+      "key": "Username",
+      "value": "dev@blinq.io",
+      "dataType": "string",
+      "scope": {
+        "type": "global"
+      },
+      "source": "user",
+      "createdAt": "2026-04-15T09:15:42.118Z",
+      "updatedAt": "2026-04-15T09:15:42.118Z"
+    },
+    {
+      "_id": "01KQRQ6KGYDJKAHYQF37D8FJX9",
+      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
+      "key": "Username SAP",
+      "value": "kishan.kumar@blinq.io",
+      "dataType": "string",
+      "scope": {
+        "type": "global"
+      },
+      "source": "user",
+      "createdAt": "2026-05-04T05:25:58.942Z",
+      "updatedAt": "2026-05-04T05:25:58.942Z"
+    },
+    {
+      "_id": "01KPATMT8ZKFYK153JQFZN9TMG",
+      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
+      "key": "Username-mesha",
+      "value": "megha.shivhare-ey6j@force.com",
+      "dataType": "string",
+      "scope": {
+        "type": "global"
+      },
+      "source": "user",
+      "createdAt": "2026-04-16T09:41:06.463Z",
+      "updatedAt": "2026-04-16T09:51:34.766Z"
+    }
+  ]
+}

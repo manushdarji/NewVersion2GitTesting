@@ -1,0 +1,13 @@
+{
+  "name": "blinq-generated-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "playwright:install": "playwright install",
+    "test": "cucumber-js",
+    "test:example": "cucumber-js features"
+  },
+  "dependencies": {
+    "@dev-blinq/bvt-cucumber-js": "latest"
+  }
+}

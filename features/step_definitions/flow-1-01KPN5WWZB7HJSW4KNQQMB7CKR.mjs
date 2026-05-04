@@ -1,0 +1,60 @@
+import { Given, When, Then } from "@cucumber/cucumber";
+
+Given("The user clicks the image [01KPN5XN3V70KES6VYCQ2MPAQA]", async function () {
+  const input = {};
+  await this.executeCommand({"_id":"01KPN5Y150QGZKE95DC82R6ETA","type":"element.action","data":{"type":"click"},"target":{"name":"\"\n  \n\" img","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"internal:label=\"Dismiss\"s >> svg","strategy":"css","description":"The icon inside the \"Dismiss\" button"},{"type":"pw.selectorString","selectorString":"internal:role=button[name=\"Dismiss\"s]","strategy":"text","description":"The \"Dismiss\" button"},{"type":"pw.selectorString","selectorString":"svg.artdeco-icon.lazy-loaded","strategy":"css","description":"The SVG icon with class \"artdeco-icon lazy-loaded\""}]}}, input);
+});
+
+When("The user clicks on BlinqIO [01KPN5Z9JDYAF6JYCV36DFVR4X]", async function () {
+  const input = {};
+  await this.executeCommand({"_id":"01KPN60GFH4HBF58VZ97PK4JAH","type":"element.action","data":{"type":"click"},"target":{"name":"BlinqIO","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"internal:attr=[alt=\"BlinqIO\"s]","strategy":"text","description":"The image labeled \"BlinqIO\"s"},{"type":"pw.selectorString","selectorString":"internal:role=img[name=\"BlinqIO\"s]","strategy":"text","description":"The image named \"BlinqIO\"s"},{"type":"pw.selectorString","selectorString":"img.inline-block.relative.hue-web-entity__image.top-card-layout__entity-image.shadow-color-shadow.border-solid.border-color-surface.lazy-loaded","strategy":"css","description":"The BlinqIO image"}]}}, input);
+});
+
+When("Verify element property [01KPN60MJK9HX75VBJJ5VH9K4Z]", async function () {
+  const input = {};
+  await this.executeCommand({"_id":"01KPN614KHG7MJ9VKFNGV5J7JK","type":"element.assertion","data":{"type":"toHaveProperty","name":"tagName","value":{"type":"string","value":"IMG"}},"target":{"name":"BlinqIO","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"internal:attr=[alt=\"BlinqIO\"s]","strategy":"text"},{"type":"pw.selectorString","selectorString":"internal:role=img[name=\"BlinqIO\"s]","strategy":"text"},{"type":"pw.selectorString","selectorString":"img.inline-block.relative.hue-web-entity__image.top-card-layout__entity-image.shadow-color-shadow.border-solid.border-color-surface.lazy-loaded","strategy":"css"}]},"isNegativeAssertion":false,"editorMetadata":{"elementBvtId":"bvt-t5yq2lix4","elementName":"BlinqIO","availableProperties":{"tagName":"IMG","id":"","className":"inline-block relative hue-web-entity__image w-16 h-16 top-card-layout__entity-image shadow-color-shadow shadow-[0_4px_12px] border-2 border-solid border-color-surface mt-[-70px] mb-[14px] papabear:border-4 papabear:mt-[-100px] papabear:mb-[18px] lazy-loaded","name":"","src":"https://media.licdn.com/dms/image/v2/D4D0BAQGIB44iFGdQJw/company-logo_200_200/company-logo_200_200/0/1698564304337/blinq_io_logo?e=2147483647&v=beta&t=-ADq80plXrh7Jg0kZ4_tgFnYZGH1G8HBwCoXXPTWFmo","alt":"BlinqIO","title":"","hidden":false,"tabIndex":-1,"textContent":""}}}, input);
+});
+
+When("Verify text \"Software Development\" is found in the page [01KPN614KHD27B9H6GSGHV8QJB]", async function () {
+  const input = {};
+  await this.executeCommand({"_id":"01KPN61WPD42HTZ4XT7XYK88B6","type":"page.assertion","data":{"type":"toContainText","value":{"type":"string","value":"Software Development"}},"target":null,"isNegativeAssertion":false}, input);
+});
+
+When("Verify element property [01KPN61WPE85E4GTRZDZ9HGBR8]", async function () {
+  const input = {};
+  await this.executeCommand({"_id":"01KPN62G42WZAHFEQEDB19D082","type":"element.assertion","data":{"type":"toHaveProperty","name":"href","value":{"type":"string","value":"https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fblinq%2Eio%2F&urlhash=puxb&trk=about_website"}},"target":{"name":"https://blinq.io/","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"internal:text=\"https://blinq.io/\"s","strategy":"text"},{"type":"pw.selectorString","selectorString":"internal:role=link[name=\"https://blinq.io/\"s]","strategy":"text"},{"type":"pw.selectorString","selectorString":"[data-test-id=\"about-us__website\"] >> a","strategy":"css"},{"type":"pw.selectorString","selectorString":"[data-test-id=\"about-us__website\"] >> internal:role=link","strategy":"css"},{"type":"pw.selectorString","selectorString":"dl > div.flex.babybear\\:flex-wrap:nth-child(1) > dd.font-sans.text-md.text-color-text.break-words.overflow-hidden > a.link-no-visited-state.hover\\:no-underline","strategy":"css"}]},"isNegativeAssertion":false,"editorMetadata":{"elementBvtId":"bvt-o8traoc2a","elementName":"https://blinq.io/","availableProperties":{"tagName":"A","id":"","className":"link-no-visited-state hover:no-underline","name":"","type":"","href":"https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Fblinq%2Eio%2F&urlhash=puxb&trk=about_website","title":"","hidden":false,"tabIndex":0,"textContent":"\n      https://blinq.io/\n      \n  \n\n    "}}}, input);
+});
+
+When("Verify text \"Privately Held\" is found in the page [01KPN62G4296CF5D6S2X1NY9NP]", async function () {
+  const input = {};
+  await this.executeCommand({"_id":"01KPN62V6MJ9YHJM2SN7K8GJWN","type":"page.assertion","data":{"type":"toContainText","value":{"type":"string","value":"Privately Held"}},"target":null,"isNegativeAssertion":false}, input);
+});
+
+When("Verify text \"US$ 5.0M\" is found in the page [01KPN62V6NPDYAGE8SZM18QHTV]", async function () {
+  const input = {};
+  await this.executeCommand({"_id":"01KPN634ZHTSVRDE7NQ1FFCWYY","type":"page.assertion","data":{"type":"toContainText","value":{"type":"string","value":"US$ 5.0M"}},"target":null,"isNegativeAssertion":false}, input);
+});
+
+When("The user clicks the text [01KPN634ZH6JKS2NDMA8QSHMJ2]", async function () {
+  const input = {};
+  await this.executeCommand({"_id":"01KPN63NS9NJPEXSXKV902DJBT","type":"element.action","data":{"type":"click"},"target":{"name":"text bvt-zh19kyzy1","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"#rocket-medium >> path","strategy":"css","description":"The path icon inside the rocket-medium container"},{"type":"pw.selectorString","selectorString":"internal:role=link[name=\"Top Content\"s]","strategy":"text","description":"The link labeled \"Top Content\""},{"type":"pw.selectorString","selectorString":"#rocket-medium > path","strategy":"css","description":"The path icon directly inside the rocket-medium container"}]}}, input);
+});
+
+When("The user clicks on People [01KPN63Q2S1XTTE5PHBANX01N9]", async function () {
+  const input = {};
+  await this.executeCommand({"_id":"01KPN63VSCRVYYJJC0352V2DAV","type":"element.action","data":{"type":"click"},"target":{"name":"People","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"internal:role=link[name=\"People\"s]","strategy":"text","description":"The link labeled \"People\""},{"type":"pw.selectorString","selectorString":"ul.top-nav-menu.flex.items-center.babybear\\:w-full.babybear\\:justify-between.justify-start.w-max.overflow-x-auto.after\\:papamamabear\\:up-down-divider.nav__menu.babybear\\:order-last.ml-auto > li:nth-child(2) > a.top-nav-link.flex.justify-center.items-center.hover\\:text-color-text.visited\\:hover\\:text-color-text.hover\\:no-underline.flex-col.text-color-text-secondary.visited\\:text-color-text-secondary","strategy":"css","description":"The People link in the top navigation menu (2nd)"}]}}, input);
+});
+
+When("The user logs in with credentials [01KPN63X692Y9HYE1X15CHD6K9]", async function (_input) {
+  const input = JSON.parse(_input?.trim() || "{}");
+  await this.executeCommand({"_id":"01KPN643ARWCNN6G6KW0VFGN2M","type":"element.action","data":{"type":"click"},"target":{"name":"Email or phone","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"internal:role=textbox[name=\"Email or phone\"s]","strategy":"text","description":"The input field labeled \"Email or phone\" (1st)"},{"type":"pw.selectorString","selectorString":"#session_key","strategy":"css","description":"The input field with ID \"session_key\" (1st)"},{"type":"pw.selectorString","selectorString":"internal:label=\"Email or phone\"s","strategy":"css","description":"The input field labeled \"Email or phone\" using the form label (1st)"},{"type":"pw.selectorString","selectorString":"input[name=\"session_key\"]","strategy":"css","description":"The input field with name \"session_key\" (1st)"},{"type":"pw.selectorString","selectorString":"input[type=\"text\"]","strategy":"css","description":"The text input field (1st)"}]}}, input);
+  await this.executeCommand({"_id":"01KPN644F89XJ26SM5A3MQ91SZ","type":"element.action","data":{"type":"fill","value":"<email_or_phone>"},"target":{"name":"Email or phone","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"internal:role=textbox[name=\"Email or phone\"s]","strategy":"text","description":"The input field labeled \"Email or phone\" (2nd)"},{"type":"pw.selectorString","selectorString":"#session_key","strategy":"css","description":"The input field with ID \"session_key\" (2nd)"},{"type":"pw.selectorString","selectorString":"internal:label=\"Email or phone\"s","strategy":"css","description":"The input field labeled \"Email or phone\" using the form label (2nd)"},{"type":"pw.selectorString","selectorString":"input[name=\"session_key\"]","strategy":"css","description":"The input field with name \"session_key\" (2nd)"},{"type":"pw.selectorString","selectorString":"input[type=\"text\"]","strategy":"css","description":"The text input field (2nd)"}]}}, input);
+  await this.executeCommand({"_id":"01KPN64BWRG0F4X9YNZBXWAMV2","type":"element.action","data":{"type":"click"},"target":{"name":"Password","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"internal:role=textbox[name=\"Password\"s]","strategy":"text","description":"The input field labeled \"Password\" (1st)"},{"type":"pw.selectorString","selectorString":"#session_password","strategy":"css","description":"The input field with ID \"session_password\" (1st)"},{"type":"pw.selectorString","selectorString":"internal:label=\"Password\"s","strategy":"css","description":"The input field labeled \"Password\" using the form label (1st)"},{"type":"pw.selectorString","selectorString":"input[name=\"session_password\"]","strategy":"css","description":"The input field with name \"session_password\" (1st)"},{"type":"pw.selectorString","selectorString":"input[type=\"password\"]","strategy":"css","description":"The password input field (1st)"}]}}, input);
+  await this.executeCommand({"_id":"01KPN64CMKYHT6YG06WRQQTB24","type":"element.action","data":{"type":"fill","value":"<password>"},"target":{"name":"Password","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"internal:role=textbox[name=\"Password\"s]","strategy":"text","description":"The input field labeled \"Password\" (2nd)"},{"type":"pw.selectorString","selectorString":"#session_password","strategy":"css","description":"The input field with ID \"session_password\" (2nd)"},{"type":"pw.selectorString","selectorString":"internal:label=\"Password\"s","strategy":"css","description":"The input field labeled \"Password\" using the form label (2nd)"},{"type":"pw.selectorString","selectorString":"input[name=\"session_password\"]","strategy":"css","description":"The input field with name \"session_password\" (2nd)"},{"type":"pw.selectorString","selectorString":"input[type=\"password\"]","strategy":"css","description":"The password input field (2nd)"}]}}, input);
+});
+
+When("The user clicks the image 2 [01KPN64GJYDA1SRCH5ZJEX5B1D]", async function () {
+  const input = {};
+  await this.executeCommand({"_id":"01KPN64MH81NNVR2XQBH9Y8BBY","type":"element.action","data":{"type":"click"},"target":{"name":"\"\n  \n\" img","uniqueSelectors":[{"type":"pw.selectorString","selectorString":"#close-small","strategy":"css","description":"The button with ID 'close-small'"},{"type":"pw.selectorString","selectorString":"internal:role=button[name=\"Close sign in card\"s]","strategy":"text","description":"The button labeled \"Close sign in card\""}]}}, input);
+});
+
