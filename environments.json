@@ -1,75 +1,20 @@
 {
-  "default": "try and review",
+  "default": "WebFlow",
   "environments": {
-    "try and review": {
-      "id": "01KP86QDH8JGJ6SGJKKQNWEN4B",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://www.tryandreview.com/in"
+    "WebFlow": {
+      "id": "01KPQEW8Y9X0E0X2NHY5XWNTAM",
+      "projectId": "01KPQEVXBAX9V4QSNH3038763R",
+      "baseURL": "https://webflow.com/made-in-webflow/"
     },
-    "Sales": {
-      "id": "01KP87QSNTHEVBMA3S9T970ESY",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://example.com"
+    "IMDB": {
+      "id": "01KPQTE6XY9H42BPHSHT0A8XQH",
+      "projectId": "01KPQEVXBAX9V4QSNH3038763R",
+      "baseURL": "https://www.imdb.com/"
     },
-    "superkicks": {
-      "id": "01KP8EZHVM71VGJ50C5PGPJ0M0",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://www.superkicks.in/collections/nike"
-    },
-    "Superdemo": {
-      "id": "01KPAQ2SJYPKR5VAQSRJ0ZTB2F",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://www.superdemo.blinq.io/"
-    },
-    "SalesForce": {
-      "id": "01KPATNT8NYD7JBWGWFZ12EZJV",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://login.salesforce.com/?locale=in"
-    },
-    "GFG": {
-      "id": "01KPAY4JBR1FPY7WS525X6BVZS",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://www.geeksforgeeks.org/"
-    },
-    "Samsung": {
-      "id": "01KPAZERK0S7CP3QR50HPBXW22",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://www.samsung.com/"
-    },
-    "airbnb": {
-      "id": "01KPB11MT2DD49FNKSBSZM8099",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://www.airbnb.co.in/"
-    },
-    "QA brains": {
-      "id": "01KPD3823AD87942TAFSX8ZVK2",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://practice.qabrains.com/"
-    },
-    "global SQA": {
-      "id": "01KPDGYDPR6B75CGTRQ7GYM0Y6",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://www.globalsqa.com/demo-site/"
-    },
-    "slack": {
-      "id": "01KPMX59W9EYCZDBB93QV7PAF4",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://slack.com/intl/en-in/"
-    },
-    "LinkedIn": {
-      "id": "01KPN5W6KABJPNQYKXP4W9XPCJ",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://www.linkedin.com/company/blinq-io/"
-    },
-    "myProject.ai": {
-      "id": "01KPYZAQ3CBY1HYQ7A8MWBAW54",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://www.myproject.ai/"
-    },
-    "SAP": {
-      "id": "01KQRQ4WQJ13PHRMTJHR8EZ7A6",
-      "projectId": "01KNKQ8KAWF60779MD04623H3Q",
-      "baseURL": "https://cloudtrials.cfapps.eu10-004.hana.ondemand.com/public/access-trial/29ebe1e1-bd6d-4d78-8229-01b144b211b7?t=TSS1000"
+    "Environment 3": {
+      "id": "01KQCFHTXECN7P5YTNEP5Z8KFN",
+      "projectId": "01KPQEVXBAX9V4QSNH3038763R",
+      "baseURL": "https://www.superdemo.blinq.io/inputs/"
     }
   }
 }

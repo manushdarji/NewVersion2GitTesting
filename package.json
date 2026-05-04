@@ -8,6 +8,6 @@
     "test:example": "cucumber-js features"
   },
   "dependencies": {
-    "@dev-blinq/bvt-cucumber-js": "latest"
+    "@dev-blinq/bvt-cucumber-js": "staging"
   }
 }
