@@ -160,3 +160,5 @@ Feature: New Feature
   Examples:
     | username_sap     | password_sap     |
     | {{Username SAP}} | {{Password SAP}} |
+
+  Scenario Outline: New Test 8
